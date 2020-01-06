@@ -1,0 +1,141 @@
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
+.fancy-bg-dark {
+    background-color: #131627!important;
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-overlay:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 8, 29, 0.7);
+    content: '';
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fancy-search-and-shop-area {
+    margin-left: 65px;
+}
+
+.fancy-search-and-shop-area > a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.fancy-search-and-shop-area > a:first-child {
+    margin-right: 30px;
+}
+
+.fancy-search-form {
+    width: 100%;
+    background-color: #fff;
+    height: 100px;
+    position: fixed;
+    top: -130px;
+    left: 0;
+    padding: 0 65px;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-form-on .fancy-search-form {
+    top: 0;
+    z-index: 2000;
+}
+
+.fancy-search-form form input {
+    width: 100%;
+    font-size: 36px;
+    color: #b5aec4;
+    background-color: transparent;
+    border: none;
+}
+
+.search-close-btn {
+    color: #2bc0a4;
+    font-size: 30px;
+    top: 8px;
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.fancy-hero-area {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 900px;
+}
+
+
+.fancy-hero-content h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+
+.animated-img {
+    -webkit-animation: animated-image 50s ease infinite;
+    animation: animated-image 50s ease infinite;
+}
+
+@-webkit-keyframes animated-image {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 20%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes animated-image {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 20%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+span {
+    color: #AFA939;
+}
+
+
+
+
